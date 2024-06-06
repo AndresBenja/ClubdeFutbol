@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/idjugador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Codigo"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nombrejugador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nombre del Jugador"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/equipojugador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Equipo del jugador"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/fotojugadorURL"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarillo"
+    tools:context=".views.fragmentos.DetalledelJugadorFragment">
+
+
+    <ImageView
+        android:id="@+id/fotoUrl"
+        android:layout_width="255dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="216dp"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/texnombreJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texIDJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toEndOf="@+id/texIDJ" />
+
+    <TextView
+        android:id="@+id/texclubJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:text="Club"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texcamisetaJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toEndOf="@+id/texcamisetaJ" />
+
+    <TextView
+        android:id="@+id/texPosiJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:gravity="center"
+        android:text="Posicion"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/texcamisetaJ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/texcamisetaJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Camiseta"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/texIDJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Id"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/texHistoryJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Historia"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoUrl" />
+
+    <TextView
+        android:id="@+id/texValorJ"
+        android:layout_width="91dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Valor"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texPosiJ"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="318dp"
+        android:layout_height="108dp"
+        android:src="@drawable/eq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="643dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
