@@ -44,7 +44,13 @@ dependencies {
 
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
-    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation("com.squareup.picasso:picasso:2.8")
+//viewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.1")
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.1")
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
